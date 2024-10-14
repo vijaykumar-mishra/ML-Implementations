@@ -4,23 +4,23 @@ Welcome to my GitHub repository! This project is a collection of implementations
 
 Table of Contents
 ==================================
-Introduction
-Requirements
-Implemented Algorithms
-Neural Networks (MLP Classifier and Regressor)
-Decision Trees
-Frequent Pattern Growth (FP Growth)
-Semi-Supervised Learning
-Support Vector Machine (SVM)
-Naive Bayes Classifiers
-Perceptron Classifier
-K-Nearest Neighbors (KNN)
-Random Forest
-XGBoost
-Datasets
-Usage
-Contributing
-License
+Introduction 
+Requirements 
+Implemented Algorithms 
+Neural Networks (MLP Classifier and Regressor) 
+Decision Trees 
+Frequent Pattern Growth (FP Growth) 
+Semi-Supervised Learning 
+Support Vector Machine (SVM) 
+Naive Bayes Classifiers 
+Perceptron Classifier 
+K-Nearest Neighbors (KNN) 
+Random Forest 
+XGBoost 
+Datasets 
+Usage 
+Contributing 
+License 
 
 Introduction
 ==================================
@@ -30,12 +30,12 @@ Introduction
 ==================================
 To run the programs in this repository, you need to install the following dependencies:
 
-Python 3.x
-scikit-learn
-XGBoost
-NumPy
-Pandas
-Matplotlib (optional for visualization)
+Python 3.x 
+scikit-learn 
+XGBoost 
+NumPy 
+Pandas 
+Matplotlib (optional for visualization) 
 
 Algorithms Implemented
 ==================================
@@ -106,8 +106,11 @@ Datasets
 This project utilizes the following datasets:
 
 Boston Housing Dataset: A regression dataset from sklearn to predict house prices.
+
 Digits Dataset: A classification dataset for handwritten digit recognition from sklearn.
+
 Olivetti Face Dataset: A face recognition dataset from sklearn.
+
 Local Data: Custom-generated arrays to test KNN on small datasets.
 
 Usage
