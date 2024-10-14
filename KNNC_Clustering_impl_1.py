@@ -1,3 +1,10 @@
+# KNNC Clustering
+# Randomly generate 120 values of x in the range [0,1]. Let them be x1, x2, · · · , x120
+
+#  i. Cluster the entire set of 120 points using the Leader algorithm. Choose different values for threshold θ and cluster.
+#  ii. Let the clustering obtained using some threshold θi be Ci = {cluster1, cluster2, · · · , clusterli }.
+#  iii. Compute the purity value for each clustering. The purity value is given by Purity (Ci) = X li j=1 maximum (|clusterj ∩ Class1|, |clusterj ∩ Class2|).
+
 import random
 import numpy as np
 import pandas as pd
