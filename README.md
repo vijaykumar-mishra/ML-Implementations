@@ -4,23 +4,23 @@ Welcome to my GitHub repository! This project is a collection of implementations
 
 Table of Contents
 ==================================
-Introduction 
-Requirements 
-Implemented Algorithms 
-Neural Networks (MLP Classifier and Regressor) 
-Decision Trees 
-Frequent Pattern Growth (FP Growth) 
-Semi-Supervised Learning 
-Support Vector Machine (SVM) 
-Naive Bayes Classifiers 
-Perceptron Classifier 
-K-Nearest Neighbors (KNN) 
-Random Forest 
-XGBoost 
-Datasets 
-Usage 
-Contributing 
-License 
+Introduction <br />
+Requirements <br />
+Implemented Algorithms <br />
+Neural Networks (MLP Classifier and Regressor) <br />
+Decision Trees <br />
+Frequent Pattern Growth (FP Growth) <br />
+Semi-Supervised Learning <br />
+Support Vector Machine (SVM) <br />
+Naive Bayes Classifiers <br />
+Perceptron Classifier <br />
+K-Nearest Neighbors (KNN) <br />
+Random Forest <br />
+XGBoost <br />
+Datasets <br />
+Usage <br />
+Contributing<br /> 
+License <br />
 
 Introduction
 ==================================
@@ -30,12 +30,12 @@ Introduction
 ==================================
 To run the programs in this repository, you need to install the following dependencies:
 
-Python 3.x 
-scikit-learn 
-XGBoost 
-NumPy 
-Pandas 
-Matplotlib (optional for visualization) 
+Python 3.x <br />
+scikit-learn <br />
+XGBoost <br />
+NumPy <br />
+Pandas <br />
+Matplotlib (optional for visualization) <br />
 
 Algorithms Implemented
 ==================================
@@ -105,13 +105,13 @@ Datasets
 ==================================
 This project utilizes the following datasets:
 
-Boston Housing Dataset: A regression dataset from sklearn to predict house prices.
+Boston Housing Dataset: A regression dataset from sklearn to predict house prices.<br />
 
-Digits Dataset: A classification dataset for handwritten digit recognition from sklearn.
+Digits Dataset: A classification dataset for handwritten digit recognition from sklearn.<br />
 
-Olivetti Face Dataset: A face recognition dataset from sklearn.
+Olivetti Face Dataset: A face recognition dataset from sklearn.<br />
 
-Local Data: Custom-generated arrays to test KNN on small datasets.
+Local Data: Custom-generated arrays to test KNN on small datasets.<br />
 
 Usage
 ==================================
