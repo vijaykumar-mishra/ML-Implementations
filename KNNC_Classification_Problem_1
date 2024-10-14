@@ -1,0 +1,6 @@
+Below problem is selected and implementation is done to demonstrate understanding of KNNC Classifier 
+
+Randomly generate 120 values of x in the range [0,1]. Let them be x1, x2, · · · , x120
+  i. Label the first 80 points {x1, · · · , x80} as follows. If xi ≤ 0.5 then xi ∈ Class1, else (if xi > 0.5) xi ∈ Class2 for i = 1, 2, · · · , 80.
+ ii. Classify the remaining points, that is x81, · · · , x120 using kNNC. Do this for k = 1, k = 3, k = 4, k = 5, k = 40, k = 80.
+iii. Compute classification accuracy.
