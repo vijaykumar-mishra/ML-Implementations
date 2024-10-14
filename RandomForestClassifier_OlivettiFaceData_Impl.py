@@ -58,27 +58,27 @@ for j in range(num_trees_len):
             plt.title('Feature Importances')
             plt.barh(range(len(importances)), importances[indices], color='b', align='center')
             plt.xlabel('Relative Importance')
-            fig.savefig("D:\IISC_Course\Assignment_3\Q2\Feature_Importance_for_Testsize20percent_numTrees100.png")
+            fig.savefig("D:\ML_Implementations\RandomForest\Feature_Importance_for_Testsize20percent_numTrees100.png")
             
         if(num_trees_arr[j] == 200 and testsize == 0.3 ):
             fig = plt.figure(figsize=(12, 6))
             plt.title('Feature Importances')
             plt.barh(range(len(importances)), importances[indices], color='b', align='center')
             plt.xlabel('Relative Importance')
-            fig.savefig("D:\IISC_Course\Assignment_3\Q2\Feature_Importance_for_Testsize30percent_numTrees200.png")
+            fig.savefig("D:\ML_Implementations\RandomForest\Feature_Importance_for_Testsize30percent_numTrees200.png")
             
         if(num_trees_arr[j] == 300 and testsize == 0.20):
             fig = plt.figure(figsize=(12, 6))
             plt.title('Feature Importances')
             plt.barh(range(len(importances)), importances[indices], color='b', align='center')
             plt.xlabel('Relative Importance')
-            fig.savefig("D:\IISC_Course\Assignment_3\Q2\Feature_Importance_for_Testsize20percent_numTrees300.png")
+            fig.savefig("D:\ML_Implementations\RandomForest\Feature_Importance_for_Testsize20percent_numTrees300.png")
             
         if(num_trees_arr[j] == 400 and testsize == 0.3 ):
             fig = plt.figure(figsize=(12, 6))
             plt.title('Feature Importances')
             plt.barh(range(len(importances)), importances[indices], color='b', align='center')
             plt.xlabel('Relative Importance')
-            fig.savefig("D:\IISC_Course\Assignment_3\Q2\Feature_Importance_for_Testsize30percent_numTrees400.png")
+            fig.savefig("D:\ML_Implementations\RandomForest\Feature_Importance_for_Testsize30percent_numTrees400.png")
             
     print("avg accuracy for tree size",  num_trees_arr[j], " = ", total_accuracy/10)
