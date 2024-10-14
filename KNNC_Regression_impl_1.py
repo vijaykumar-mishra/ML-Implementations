@@ -1,3 +1,8 @@
+# KNNC Regression
+# Randomly generate 120 values of x in the range [0,1]. Let them be x1, x2, · · · , x120
+# i. Consider the function yi = 1 + xi + x 2 i . Compute the values y1, · · · , y120. Take the first 80 pairs for training. So, the training set is {(x1, y1),(x2, y2), · · · ,(x80, y80)}. Use the kNN based prediction for x81, · · · , x120 and obtain ˆy81, · · · , yˆ120.
+# ii. Compute the error as error = X 120 81 (yi − yˆi) 2.
+
 import random
 import numpy as np
 import pandas as pd
