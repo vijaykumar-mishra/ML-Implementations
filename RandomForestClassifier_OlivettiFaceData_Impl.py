@@ -1,3 +1,18 @@
+# Random Forest Classifier
+# Download the Olivetti faces dataset. 
+# Visit https://scikit-learn.org/0.19/datasets/olivetti_faces.html
+# There are 40 classes (corresponding to 40 people), each class having 10 faces of the individual; so there are a total of 400 images. 
+# Here each face is viewed as an imgae of size 64 × 64 (= 4096) pixels; each pixel having values 0 to 255 which are ultimately converted into floating numbers in the range [0,1]. 
+# 
+# Split the dataset into train
+# and test parts. Do this splitting randomly 10 times and report the average accuracy.
+# You may vary the test and train dataset sizes.
+# 
+# Build a Random Forest Classifier using the training dataset.
+# Vary the size of the random forest by using different number of decision trees.
+# Obtain the classification accuracy on the test data. 
+# Obtain the importance of features.
+
 import numpy as np
 import math
 import random
